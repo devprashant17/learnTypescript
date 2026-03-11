@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function Greet(a, b) {
-    return a + b;
+function age(age) {
+    return age >= 18 ? true : false;
 }
-let ans = Greet(1, 2);
+let ans = age(17);
 console.log(ans);
 //# sourceMappingURL=index.js.map
