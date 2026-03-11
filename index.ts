@@ -1,5 +1,6 @@
-function Greet(nam: string ){
-    console.log(`Good morning ${nam} !`)
+function Greet(a: number, b: number ){
+    return a+b;
 }
 
-Greet("Prashant"); 
+let ans = Greet(1,2);
+console.log(ans);
