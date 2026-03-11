@@ -1,5 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let x = 1;
-console.log(x);
+function Greet(string) {
+    console.log(`Good morning ${nam} !`);
+}
+Greet("Prashant");
 //# sourceMappingURL=index.js.map

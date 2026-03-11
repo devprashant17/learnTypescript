@@ -1,2 +1,5 @@
-let x: number = 1;
-console.log(x);
+function Greet(nam: string ){
+    console.log(`Good morning ${nam} !`)
+}
+
+Greet("Prashant"); 
