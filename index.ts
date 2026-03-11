@@ -1,6 +1,7 @@
-function age(age: number):boolean{
-    return age>=18?true:false;
+function DelayedCall(fn: ()=>void){
+    setTimeout(fn,1000);
 }
 
-let ans = age(17);
-console.log(ans);
+DelayedCall(()=>{
+    console.log("HIII");
+})
